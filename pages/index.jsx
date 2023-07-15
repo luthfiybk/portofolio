@@ -102,7 +102,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Completed the Senior High School (Natural Science) at SMAN 6 Bogor
+          Completed the Senior High School (Natural Science) in SMAN 6 Bogor
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
