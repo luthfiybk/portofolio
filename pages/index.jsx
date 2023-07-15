@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Computer Science student at Diponegoro University
+        Hello, I&apos;m a Computer Science student in Diponegoro University
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -75,7 +75,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        Final-year Computer Science student at Diponegoro University who currently 
+        Final-year Computer Science student in Diponegoro University who currently 
         interested in Back End Engineering and Cyber Security. 
         Highly-motivated for pursuing Postgraduate program.
         </Paragraph>
@@ -106,7 +106,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Studying computer science at Diponegoro University
+          Studying computer science in Diponegoro University
         </BioSection>
       </Section>
 
