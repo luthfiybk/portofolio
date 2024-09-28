@@ -113,7 +113,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Code, Learn New Things (such as new backend or frontend framework), and Playing Competitive Games
+          Code, Learn New Things (such as new backend, frontend framework, and supply chain management), and Playing Competitive Games
         </Paragraph>
       </Section>
 
