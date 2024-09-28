@@ -4,6 +4,7 @@ import Section from "../components/section"
 import { ProjectGridItem } from "../components/grid-item"
 
 import thumbPresensi from '../public/images/projects/presensi.png'
+import thumbDiporun from '../public/images/projects/diporun.png'
 
 const Projects = () => (
     <Layout title="Projects">
@@ -21,6 +22,15 @@ const Projects = () => (
                     >
                         A simple web-based application with Laravel Framework that make it easier 
                         for employee to take attendance using latitude and longitude
+                    </ProjectGridItem>
+                </Section>
+                <Section>
+                    <ProjectGridItem 
+                        id="diporun" 
+                        title="Diporun" 
+                        thumbnail={thumbDiporun}
+                    >
+                        A simple web-based company profile with Next.js.
                     </ProjectGridItem>
                 </Section>
             </SimpleGrid>

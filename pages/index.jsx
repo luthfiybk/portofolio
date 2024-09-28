@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Computer Science student at Diponegoro University
+        Hello, I&apos;m a Fresh Graduate majoring in Computer Science.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Luthfi Arya Manggala
           </Heading>
-          <p>Student and Developer</p>
+          <p>Backend Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,9 +75,11 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        Final-year Computer Science student at Diponegoro University who currently 
-        interested in Back End Engineering and Cyber Security. 
-        Highly-motivated for pursuing Postgraduate program.
+        As a final-year Computer Science student at Diponegoro University, 
+        I focus on Back End Engineering and Blockchain/Web3 technologies. 
+        I have delved into server-side scripting and databases, and my enthusiasm for decentralized systems drives my research. 
+        My practical experience includes various projects and potential internships. 
+        I aim to pursue a graduate program to deepen my knowledge and explore opportunities in the field of information technology, particularly in Blockchain and Web3.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -101,12 +103,8 @@ const Home = () => (
           Born in Bogor, Indonesia.
         </BioSection>
         <BioSection>
-          <BioYear>2020</BioYear>
-          Completed the Senior High School (Natural Science) at SMAN 6 Bogor
-        </BioSection>
-        <BioSection>
-          <BioYear>2020 to present</BioYear>
-          Studying computer science at Diponegoro University
+          <BioYear>2024</BioYear>
+          Completed the computer science major at Diponegoro University
         </BioSection>
       </Section>
 
@@ -115,7 +113,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding and Playing Competitive Games
+          Code, Learn New Things (such as new backend or frontend framework), and Playing Competitive Games
         </Paragraph>
       </Section>
 
