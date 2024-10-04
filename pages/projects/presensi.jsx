@@ -7,6 +7,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"
 import { Title, ProjectImage, Meta } from "../../components/project"
 import P from "../../components/paragraph"
 import Layout from "../../components/layouts/article"
+import { Button } from "@chakra-ui/react"
 
 const Project = () => (
     <Layout title="Presensi">
@@ -28,6 +29,26 @@ const Project = () => (
                     <span>Laravel Framework, Bootstrap CSS, Plain Javascript</span>
                 </ListItem>
             </List>
+            <Container
+            flex={1}
+            display="flex"
+            justifyContent="center"
+        >
+        
+            <Link
+                href="https://github.com/luthfiybk/presensi"
+                isExternal
+            >
+                <Button
+                    leftIcon={<ExternalLinkIcon />}
+                    mt={2}
+                    mb={5}
+                    justifyContent={"center"}
+                >
+                    Link
+                </Button>
+            </Link>
+        </Container>
         </Container>
     </Layout>
 )

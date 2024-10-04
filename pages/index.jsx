@@ -75,11 +75,15 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        As a final-year Computer Science student at Diponegoro University, 
-        I focus on Back End Engineering and Blockchain/Web3 technologies. 
-        I have delved into server-side scripting and databases, and my enthusiasm for decentralized systems drives my research. 
-        My practical experience includes various projects and potential internships. 
-        I aim to pursue a graduate program to deepen my knowledge and explore opportunities in the field of information technology, particularly in Blockchain and Web3.
+          As a Computer Science graduate from Diponegoro University, I have focused my studies on Back End Engineering, with a strong emphasis on databases, 
+          server-side scripting, and scalable system architecture. My passion for Back End development is supported by my interest in expanding my knowledge in data and security, 
+          recognizing their critical importance in today&apos;s IT landscape.
+        </Paragraph>
+        
+        <Paragraph>
+          I have gained hands-on experience through a variety of projects, along with active involvement in extracurricular activities and internships, 
+          which have provided me with a solid practical foundation and a versatile skill set. Moving forward, I am eager to continue my education to enhance my expertise, 
+          refine my technical abilities, and embrace new opportunities in information technology, particularly in Back End development, data, and security.
         </Paragraph>
         <Box align="center" my={4}>
           <Button

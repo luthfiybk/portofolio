@@ -7,6 +7,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"
 import { Title, ProjectImage, Meta } from "../../components/project"
 import P from "../../components/paragraph"
 import Layout from "../../components/layouts/article"
+import { Button } from "@chakra-ui/react"
 
 const Project = () => (
 <Layout title="Presensi">
@@ -27,6 +28,26 @@ const Project = () => (
                 <span>Next.js, Shadcn</span>
             </ListItem>
         </List>
+        <Container
+            flex={1}
+            display="flex"
+            justifyContent="center"
+        >
+        
+            <Link
+                href="https://diporun.vercel.app"
+                isExternal
+            >
+                <Button
+                    leftIcon={<ExternalLinkIcon />}
+                    mt={2}
+                    mb={5}
+                    justifyContent={"center"}
+                >
+                    Link
+                </Button>
+            </Link>
+        </Container>
     </Container>
 </Layout>
 )
